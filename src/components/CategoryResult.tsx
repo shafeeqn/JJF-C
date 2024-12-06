@@ -68,7 +68,7 @@ export default function CategoryResult({ category }: { category: string }) {
                         {programs.map((program) => (
                             <div
                                 key={program.code}
-                                className="w-12 h-20 flex items-center justify-center bg-sky-700 text-white border border-sky-800"
+                                className="w-12 h-32 flex items-center justify-center bg-sky-700 text-white border border-sky-800"
                             >
                                 <p className="transform -rotate-90 text-xs font-bold">
                                     {program.name}
